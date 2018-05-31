@@ -2,15 +2,24 @@
 // character or a blank placeholder (such as an underscore), depending on whether or not the user 
 // has guessed the letter. That means the constructor should define:
 
-var Letter = function (char) {
+function Letter(char) {
     this.char = char; // A string value to store the underlying character for the letter
     this.guessed = false; // A boolean value that stores whether that letter has been guessed yet
     this.check = function () {
-        // A function that takes a character as an argument and checks it against the underlying character, updating the stored boolean value to true if it was guessed correctly
+        console.log("Made it this far...");
+        if (this.guessed === true) {
+            console.log("Truthly state");
+            return this.char;
+        } else {
+            console.log("Falsy state");
+            return " _ "
+        }
     };
-    this.result = function (char) {
-        // A function that returns the underlying character if the letter has been guessed, or a placeholder (like an underscore) if the letter has not been guessed
-    };
+    // this.guess = function () {
+    //     if (char === this.char) {
+    //         this.guessed = true;
+    //     }
+    // }
 };
 
 module.exports = Letter;
