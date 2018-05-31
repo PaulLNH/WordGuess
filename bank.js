@@ -1,0 +1,7 @@
+// Exports word list and hangman drawing
+exports.data = {
+    // Word list
+    word: ['AWKWARD', 'BAGPIPES', 'BANJO', 'BUNGLER', 'CROQUET', 'CRYPT', 'DWARVES', 'FERVId', 'FISHHOOK', 'FJORD', 'GAZEBO', 'GYPSY', 'HAIKU', 'HAPHAZARD', 'HYPHEN', 'IVORY', 'JAZZY', 'JIFFY', 'JINX', 'JUKEBOX', 'KAYAK', 'KIOSK', 'KLUTZ', 'MOMENTO', 'MYSTIFY', 'NUMBSKULL', 'OSTRACIZE', 'OXYGEN', 'PAJAMA', 'PHLEGM', 'PIXEL', 'POLKA', 'QUAD', 'QUIP', 'RHYTHMIC', 'ROGUE', 'SPHINX', 'SQUAWK', 'SWIVEL', 'TOADY', 'TWELFTH', 'UNZIP', 'WAXY', 'WILDEBEEST', 'YACHT', 'ZEALOUS', ' ZIGZAG', 'ZIPPY', 'ZOMBIE'],
+    // Hangman drawing
+    hangman: ["\n\n\n\n\n\n\n-------------", "\n |\n |\n |\n |\n |\n |\n |\n-------------", "____________\n |         |\n |\n |\n |\n |\n |\n-------------", "____________\n |         |\n |         O\n |\n |\n |\n |\n |\n-------------", "____________\n |         |\n |         O\n |         |\n |         |\n |\n |\n |\n-------------", "____________\n |         |\n |         O\n |         |\n |         |\n |        ---\n |\n |\n-------------", "____________\n |         |\n |         O\n |       __|\n |         |\n |        ---\n |\n |\n-------------", "____________\n |         |\n |         O\n |       __|__\n |         |\n |        ---\n |\n |\n-------------", "____________\n |         |\n |         O\n |       __|__\n |         |\n |        ---\n |        |\n |\n-------------", "____________\n |         |\n |         O\n |       __|__\n |         |\n |        ---\n |        | |\n |\n-------------"]
+};
